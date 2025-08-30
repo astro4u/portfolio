@@ -1,10 +1,11 @@
-import { Background } from "./react-components/Background"
+import { Header } from "./react-components/Header.jsx"
+
 
 function App() {
 
   return (
     <>
-      <Background />
+      <Header />
     </>
   )
 }

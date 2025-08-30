@@ -1,4 +1,5 @@
 import { SocialMenu } from "./SocialMenu";
+import { Menu } from "./Menu";
 
 export function Header() {
   return (

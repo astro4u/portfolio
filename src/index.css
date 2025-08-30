@@ -18,4 +18,6 @@ body {
   --color-primary: #0C1713; /* Dark Green */
   --color-secondary: #6A041D; /* Dark Red */
   --color-accent: #BDC667; /* Light Green */
+  
+  --animate-wiggle: wiggle 1s ease-in-out infinite;
 }

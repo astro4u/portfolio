@@ -12,12 +12,13 @@ export function SocialMenu() {
 
         <div className="mt-[25px] ml-[25px]">
             <button onClick={handleSocialMenuPress}
-             className={`h-[85px] w-[85px] bg-secondary font-semibold rounded-full items-center justify-items-center flex`}>
+             className={`h-[85px] w-[85px] bg-secondary font-semibold rounded-full items-center justify-items-center flex text-center`}>
             </button>
             {pressed && 
-                <div>
+                <div className="dropdownContent">
                     <SocialButton socialLogo="images\github-logo.png" link="https://github.com/astro4u" alt="github-icon"/>
                     <SocialButton socialLogo="images\linkedin.png" link="https://www.linkedin.com/in/cameron-tangco/" alt="linkedin-icon"/>
+                    <SocialButton socialLogo="images\twitter-icon.png" link="https://x.com/camtangco" alt="twitter-icon"/>
                 </div>
                 }
         </div>

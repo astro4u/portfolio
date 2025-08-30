@@ -1,0 +1,19 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+#root {
+  width:100%;
+  height:100%;
+  padding: 0px;
+  text-align: center;
+}
+
+@theme {
+  --color-primary: #0C1713; /* Dark Green */
+  --color-secondary: #6A041D; /* Dark Red */
+  --color-accent: #BDC667; /* Light Green */
+}

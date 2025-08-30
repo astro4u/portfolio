@@ -13,9 +13,12 @@ export function Header() {
                 <h1 className="font-semibold">Welcome to my portfolio.</h1>
             </div>
             <div className="w-[450px] h-[450px] rounded-full bg-white mb-[61px] mt-[61px] overflow-clip">
-                <img src="src\assets\graduation-photo.jpeg"></img>
+                <img src="images/graduation-photo.jpeg"></img>
             </div>
             <div className="text-white font-semibold text-4xl">I'm Cameron Tangco</div>
+        </div>
+        <div className="col-start-3 col-end-4 row-start-1 row-end-2 align-end justify-items-end">
+            <Menu />
         </div>
     </div>
   );

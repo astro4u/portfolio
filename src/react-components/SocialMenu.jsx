@@ -16,9 +16,9 @@ export function SocialMenu() {
             </button>
             {pressed && 
                 <div className="dropdownContent">
-                    <SocialButton socialLogo="images\github-logo.png" link="https://github.com/astro4u" alt="github-icon"/>
-                    <SocialButton socialLogo="images\linkedin.png" link="https://www.linkedin.com/in/cameron-tangco/" alt="linkedin-icon"/>
-                    <SocialButton socialLogo="images\twitter-icon.png" link="https://x.com/camtangco" alt="twitter-icon"/>
+                    <SocialButton socialLogo="\github-logo.png" link="https://github.com/astro4u" alt="github-icon"/>
+                    <SocialButton socialLogo="\linkedin.png" link="https://www.linkedin.com/in/cameron-tangco/" alt="linkedin-icon"/>
+                    <SocialButton socialLogo="\twitter-icon.png" link="https://x.com/camtangco" alt="twitter-icon"/>
                 </div>
                 }
         </div>

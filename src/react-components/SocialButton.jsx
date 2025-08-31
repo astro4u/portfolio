@@ -1,10 +1,10 @@
 export function SocialButton({ socialLogo, link, altText }) {
     return (
-        <div className="h-[60px] w-[60px] rounded-full items-center flex">
+        <div className="rounded-full items-center flex">
             <img
                 onClick={() => window.open(link)}
                 src={socialLogo}
-                className="h-full w-full mt-[15px]"
+                className="h-[2.75rem] w-[2.75rem] mt-[0.75rem]"
                 alt={altText} /> 
         </div>
     )

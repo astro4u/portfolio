@@ -4,16 +4,16 @@ import { Menu } from "./Menu";
 export function Header() {
   return (
     <div className="bg-primary h-full w-full justify-evenly grid grid-cols-3 grid-rows-3">
-        <div className="col-start-1 col-end-2 row-start-1 row-end-2 align-start justify-items-start">
+        <div className="col-start-1 col-end-2 row-start-1 row-end-2 align-end">
             <SocialMenu />
         </div>
         <div className="col-start-2 col-end-3 row-start-1 row-end-4
         bg-primary h-full w-full flex flex-col items-center">
-            <div className="text-white text-4xl mt-[61px]">
+            <div className="text-white text-4xl mt-[3.8rem]">
                 <h1 className="font-bold">Hello!</h1>
                 <h1 className="font-semibold">Welcome to my portfolio.</h1>
             </div>
-            <div className="w-[450px] h-[450px] rounded-full bg-white mb-[61px] mt-[61px] overflow-clip">
+            <div className="w-[20rem] h-[20rem] rounded-full bg-white mb-[3.8rem] mt-[3.8rem] overflow-clip">
                 <img src="./graduation-photo.jpeg"></img>
             </div>
             <div className="text-white font-semibold text-4xl">I'm Cameron Tangco</div>

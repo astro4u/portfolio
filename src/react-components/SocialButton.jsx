@@ -1,6 +1,6 @@
 export function SocialButton({ socialLogo, link, altText }) {
     return (
-        <div className="h-[60px] w-[60px] rounded-full items-center justify-items-center flex">
+        <div className="h-[60px] w-[60px] rounded-full items-center flex">
             <img
                 onClick={() => window.open(link)}
                 src={socialLogo}

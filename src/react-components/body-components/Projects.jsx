@@ -9,7 +9,7 @@ export function Projects() {
                         key={project.key}
                         target="_blank"
                     >
-                        <img className="rounded-full h-[15rem] w-[15rem] justify-self-center border-accent border-2 hover:drop-shadow-accent hover:drop-shadow-lg"
+                        <img className="rounded-full h-[15rem] w-[15rem] justify-self-center border-white border-2 hover:drop-shadow-white hover:drop-shadow-[0_0px_7px_rgba(0,0,0,0.25)]"
                             src={project.imageSrc}
                             alt={project.title}
                             onClick={() => window.open(project.link)}

@@ -4,7 +4,7 @@
         "title": "List It",
         "description": "A to-do list web application that allows users to categorize tasks by importance.",
         "link": "https://astro4u.github.io/todo-list-application/",
-        "imageSrc": "./list-it-website.png"
+        "imageSrc": "./listit.svg"
     },
     {
         "key": "2",

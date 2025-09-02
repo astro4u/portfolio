@@ -31,44 +31,44 @@ export function Menu() {
                             sm:col-start-1 sm:col-end-2 sm:row-start-2 sm:row-end-7
                             items-center justify-items-end w-[5.3125rem] text-nowrap">
                 <Transition show={pressed}>
-                    <div className="lg:col-span-2 lg:row-start-1 
+                    <a href="#about-me" className="lg:col-span-2 lg:row-start-1 
                                     sm:col-start-1 sm:row-start-1
                                     items-center
                                     transition duration-100 data-closed:opacity-0 data-opened:opacity-100">
                         <MenuElement text={"About Me"}/>
-                    </div>
+                    </a>
                 </Transition>
                 <Transition show={pressed}>
-                    <div className="lg:col-span-2 lg:row-start-2 data-closed:-translate-y-[2rem]
+                    <a href="#skills" className="lg:col-span-2 lg:row-start-2 data-closed:-translate-y-[2rem]
                                     sm:col-start-1 sm:row-start-2
                                     items-center
                                     transition duration-300 data-closed:opacity-0 data-opened:opacity-100">
                         <MenuElement text={"Skills"}/>
-                    </div>
+                    </a>
                 </Transition>
                 <Transition show={pressed}>
-                    <div className="lg:col-span-2 lg:row-start-3 data-closed:-translate-y-[4rem]
+                    <a href="#interests" className="lg:col-span-2 lg:row-start-3 data-closed:-translate-y-[4rem]
                                     sm:col-start-1 sm:row-start-3
                                     items-center
                                     transition duration-500 data-closed:opacity-0 data-opened:opacity-100">
                         <MenuElement text={"Interests"}/>
-                    </div>
+                    </a>
                 </Transition>
                 <Transition show={pressed}>
-                    <div className="lg:col-span-2 lg:row-start-4 data-closed:-translate-y-[8rem]
+                    <a href="#projects" className="lg:col-span-2 lg:row-start-4 data-closed:-translate-y-[8rem]
                                     sm:col-start-1 sm:row-start-4
                                     items-center
                                     transition duration-700 data-closed:opacity-0 data-opened:opacity-100">
                         <MenuElement text={"Projects"}/>
-                    </div>
+                    </a>
                 </Transition>
                 <Transition show={pressed}>
-                    <div className="lg:col-span-2 lg:row-start-5 data-closed:-translate-y-[12rem]
+                    <a href="#contact-me" className="lg:col-span-2 lg:row-start-5 data-closed:-translate-y-[12rem]
                                     sm:col-start-1 sm:row-start-5 
                                     items-center
                                     transition duration-900 data-closed:opacity-0 data-opened:opacity-100">
                         <MenuElement text={"Contact Me"}/>
-                    </div>
+                    </a>
                 </Transition>
             </div>
         

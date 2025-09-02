@@ -2,7 +2,7 @@ export function Skills() {
 
 
     return (
-        <div className="w-full mt-80 flex flex-col items-center">
+        <div id="skills" className="w-full mt-80 flex flex-col items-center">
             <div className="w-[40%] text-white text-start text-2xl pt-4 leading-12.5">
                 <div>
                     <h3 className="font-bold">Programming & Development:</h3>

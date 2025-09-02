@@ -34,7 +34,7 @@ export function Menu() {
                     <div className="lg:col-span-2 lg:row-start-1 
                                     sm:col-start-1 sm:row-start-1
                                     items-center
-                                    transition duration-300 data-closed:opacity-0 data-opened:opacity-100">
+                                    transition duration-100 data-closed:opacity-0 data-opened:opacity-100">
                         <MenuElement text={"About Me"}/>
                     </div>
                 </Transition>
@@ -55,7 +55,7 @@ export function Menu() {
                     </div>
                 </Transition>
                 <Transition show={pressed}>
-                    <div className="lg:col-span-2 lg:row-start-4 data-closed:-translate-y-[6rem]
+                    <div className="lg:col-span-2 lg:row-start-4 data-closed:-translate-y-[8rem]
                                     sm:col-start-1 sm:row-start-4
                                     items-center
                                     transition duration-700 data-closed:opacity-0 data-opened:opacity-100">
@@ -63,7 +63,7 @@ export function Menu() {
                     </div>
                 </Transition>
                 <Transition show={pressed}>
-                    <div className="lg:col-span-2 lg:row-start-5 data-closed:-translate-y-[8rem]
+                    <div className="lg:col-span-2 lg:row-start-5 data-closed:-translate-y-[12rem]
                                     sm:col-start-1 sm:row-start-5 
                                     items-center
                                     transition duration-900 data-closed:opacity-0 data-opened:opacity-100">

@@ -3,7 +3,7 @@ import { Menu } from "./Menu";
 
 export function Header() {
   return (
-    <div className="bg-primary h-[100vh] w-[100vw] justify-evenly grid grid-cols-3 grid-rows-3 overflow-x-hidden">
+    <div className="bg-primary h-[100vh] w-full justify-evenly grid grid-cols-3 grid-rows-3 overflow-x-hidden">
         <div className="col-start-1 col-end-2 row-start-1 row-end-2 align-end p-[2.0625rem]">
             <SocialMenu />
         </div>

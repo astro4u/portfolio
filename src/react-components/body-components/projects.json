@@ -1,0 +1,38 @@
+[
+    {
+        "key": "1",
+        "title": "List It",
+        "description": "A to-do list web application that allows users to categorize tasks by importance.",
+        "link": "https://astro4u.github.io/todo-list-application/",
+        "imageSrc": "./list-it-website.png"
+    },
+    {
+        "key": "2",
+        "title": "Sample Project 2",
+        "description": "Sample Project 2 description",
+        "link": "https://astro4u.github.io/todo-list-application/",
+        "imageSrc": "sampleproject2.png"
+    },
+    {
+        "key": "3",
+        "title": "Sample Project 3",
+        "description": "Sample Project 3 description",
+        "link": "https://astro4u.github.io/todo-list-application/",
+        "imageSrc": "sampleproject3.png"
+    
+    },
+    {
+        "key": "4",
+        "title": "Sample Project 4",
+        "description": "Sample Project 4 description",
+        "link": "https://astro4u.github.io/todo-list-application/",
+        "imageSrc": "sampleproject4.png"
+    },
+    {
+        "key": "5",
+        "title": "Sample Project 5",
+        "description": "Sample Project 5 description",
+        "link": "https://astro4u.github.io/todo-list-application/",
+        "imageSrc": "sampleproject5.png"
+    }
+]

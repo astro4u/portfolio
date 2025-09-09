@@ -19,7 +19,7 @@ export function Header() {
                 <img src="./graduation-photo.jpeg"></img>
         </div>
         <div className="text-white font-semibold text-4xl self-center col-start-2 col-end-3 row-start-3 row-end-4">
-            I'm Cameron Tangco.
+            I'm Cameron.
             </div>
         <div className="col-start-3 col-end-4 row-start-1 row-end-2 align-end justify-items-end p-[2.0625rem]">
             <Menu />

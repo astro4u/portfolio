@@ -15,6 +15,10 @@ body {
   text-align: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @theme {
   --color-primary: #0C1713; /* Dark Green */
   --color-secondary: #6A041D; /* Dark Red */
